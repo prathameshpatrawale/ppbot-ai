@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+myenv/
+.venv/
+env/
+venv/
+
+# Environment Files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+pnl_log.json
+
+# Cache
+*.cache
+.cache/
+.ipynb_checkpoints/
+
+# Output
+pnl_plot.png
+
+# OS Files
+Thumbs.db
+.DS_Store
+
+# Build
+build/
+dist/
+*.egg-info/
