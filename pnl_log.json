@@ -1,0 +1,719 @@
+{
+  "trades": [
+    {
+      "time": 1765358967.79613,
+      "market": "sim-1",
+      "outcome": "NO",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-1",
+        "outcome": "NO",
+        "amount": 5,
+        "profit": -5
+      }
+    },
+    {
+      "time": 1765358967.831778,
+      "market": "sim-2",
+      "outcome": "NO",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-2",
+        "outcome": "NO",
+        "amount": 5,
+        "profit": -5
+      }
+    },
+    {
+      "time": 1765358967.8664634,
+      "market": "sim-3",
+      "outcome": "YES",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-3",
+        "outcome": "YES",
+        "amount": 5,
+        "profit": 6.897072170827413
+      }
+    },
+    {
+      "time": 1765358972.9019928,
+      "market": "sim-4",
+      "outcome": "NO",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-4",
+        "outcome": "NO",
+        "amount": 5,
+        "profit": -5
+      }
+    },
+    {
+      "time": 1765358972.9368267,
+      "market": "sim-5",
+      "outcome": "YES",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-5",
+        "outcome": "YES",
+        "amount": 5,
+        "profit": -5
+      }
+    },
+    {
+      "time": 1765358972.9724638,
+      "market": "sim-6",
+      "outcome": "YES",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-6",
+        "outcome": "YES",
+        "amount": 5,
+        "profit": 3.5656005797970227
+      }
+    },
+    {
+      "time": 1765358978.0107226,
+      "market": "sim-7",
+      "outcome": "NO",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-7",
+        "outcome": "NO",
+        "amount": 5,
+        "profit": 5.906449742133157
+      }
+    },
+    {
+      "time": 1765358978.0475633,
+      "market": "sim-8",
+      "outcome": "YES",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-8",
+        "outcome": "YES",
+        "amount": 5,
+        "profit": -5
+      }
+    },
+    {
+      "time": 1765358978.0781958,
+      "market": "sim-9",
+      "outcome": "YES",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-9",
+        "outcome": "YES",
+        "amount": 5,
+        "profit": -5
+      }
+    },
+    {
+      "time": 1765358983.09933,
+      "market": "sim-10",
+      "outcome": "YES",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-10",
+        "outcome": "YES",
+        "amount": 5,
+        "profit": 2.894303058071419
+      }
+    },
+    {
+      "time": 1765358983.1376164,
+      "market": "sim-11",
+      "outcome": "YES",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-11",
+        "outcome": "YES",
+        "amount": 5,
+        "profit": 6.504542473219239
+      }
+    },
+    {
+      "time": 1765358988.1711788,
+      "market": "sim-13",
+      "outcome": "YES",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-13",
+        "outcome": "YES",
+        "amount": 5,
+        "profit": -5
+      }
+    },
+    {
+      "time": 1765358988.2171323,
+      "market": "sim-15",
+      "outcome": "YES",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-15",
+        "outcome": "YES",
+        "amount": 5,
+        "profit": 5.998095237255184
+      }
+    },
+    {
+      "time": 1765358993.265965,
+      "market": "sim-16",
+      "outcome": "NO",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-16",
+        "outcome": "NO",
+        "amount": 5,
+        "profit": 3.9405959607025114
+      }
+    },
+    {
+      "time": 1765358993.3252966,
+      "market": "sim-17",
+      "outcome": "NO",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-17",
+        "outcome": "NO",
+        "amount": 5,
+        "profit": -5
+      }
+    },
+    {
+      "time": 1765358993.3488543,
+      "market": "sim-18",
+      "outcome": "YES",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-18",
+        "outcome": "YES",
+        "amount": 5,
+        "profit": -5
+      }
+    },
+    {
+      "time": 1765358998.3763537,
+      "market": "sim-19",
+      "outcome": "NO",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-19",
+        "outcome": "NO",
+        "amount": 5,
+        "profit": -5
+      }
+    },
+    {
+      "time": 1765358998.4481988,
+      "market": "sim-20",
+      "outcome": "NO",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-20",
+        "outcome": "NO",
+        "amount": 5,
+        "profit": 4.923455776677121
+      }
+    },
+    {
+      "time": 1765358998.5109797,
+      "market": "sim-21",
+      "outcome": "NO",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-21",
+        "outcome": "NO",
+        "amount": 5,
+        "profit": -5
+      }
+    },
+    {
+      "time": 1765359003.5749645,
+      "market": "sim-22",
+      "outcome": "NO",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-22",
+        "outcome": "NO",
+        "amount": 5,
+        "profit": 6.576004500535596
+      }
+    },
+    {
+      "time": 1765359003.6503024,
+      "market": "sim-23",
+      "outcome": "NO",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-23",
+        "outcome": "NO",
+        "amount": 5,
+        "profit": -5
+      }
+    },
+    {
+      "time": 1765359003.7168097,
+      "market": "sim-24",
+      "outcome": "YES",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-24",
+        "outcome": "YES",
+        "amount": 5,
+        "profit": -5
+      }
+    },
+    {
+      "time": 1765359008.7687407,
+      "market": "sim-27",
+      "outcome": "NO",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-27",
+        "outcome": "NO",
+        "amount": 5,
+        "profit": 6.864156161843873
+      }
+    },
+    {
+      "time": 1765359013.802208,
+      "market": "sim-29",
+      "outcome": "NO",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-29",
+        "outcome": "NO",
+        "amount": 5,
+        "profit": -5
+      }
+    },
+    {
+      "time": 1765359013.8470025,
+      "market": "sim-30",
+      "outcome": "YES",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-30",
+        "outcome": "YES",
+        "amount": 5,
+        "profit": 6.608557546219699
+      }
+    },
+    {
+      "time": 1765359018.8633232,
+      "market": "sim-31",
+      "outcome": "NO",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-31",
+        "outcome": "NO",
+        "amount": 5,
+        "profit": 3.206915306609929
+      }
+    },
+    {
+      "time": 1765359018.905209,
+      "market": "sim-32",
+      "outcome": "NO",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-32",
+        "outcome": "NO",
+        "amount": 5,
+        "profit": -5
+      }
+    },
+    {
+      "time": 1765359018.9440877,
+      "market": "sim-33",
+      "outcome": "YES",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-33",
+        "outcome": "YES",
+        "amount": 5,
+        "profit": -5
+      }
+    },
+    {
+      "time": 1765359023.9659233,
+      "market": "sim-34",
+      "outcome": "YES",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-34",
+        "outcome": "YES",
+        "amount": 5,
+        "profit": 5.983892166017368
+      }
+    },
+    {
+      "time": 1765359024.0386362,
+      "market": "sim-35",
+      "outcome": "YES",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-35",
+        "outcome": "YES",
+        "amount": 5,
+        "profit": 6.719895362257214
+      }
+    },
+    {
+      "time": 1765359024.0814755,
+      "market": "sim-36",
+      "outcome": "NO",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-36",
+        "outcome": "NO",
+        "amount": 5,
+        "profit": 2.689881258048126
+      }
+    },
+    {
+      "time": 1765359029.1117074,
+      "market": "sim-37",
+      "outcome": "YES",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-37",
+        "outcome": "YES",
+        "amount": 5,
+        "profit": 2.5950662977096304
+      }
+    },
+    {
+      "time": 1765359029.1540134,
+      "market": "sim-38",
+      "outcome": "NO",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-38",
+        "outcome": "NO",
+        "amount": 5,
+        "profit": 5.591689618219265
+      }
+    },
+    {
+      "time": 1765359029.2140985,
+      "market": "sim-39",
+      "outcome": "NO",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-39",
+        "outcome": "NO",
+        "amount": 5,
+        "profit": -5
+      }
+    },
+    {
+      "time": 1765359034.2695146,
+      "market": "sim-40",
+      "outcome": "YES",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-40",
+        "outcome": "YES",
+        "amount": 5,
+        "profit": 2.9072263758203194
+      }
+    },
+    {
+      "time": 1765359034.4036033,
+      "market": "sim-42",
+      "outcome": "YES",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-42",
+        "outcome": "YES",
+        "amount": 5,
+        "profit": 5.916542132227363
+      }
+    },
+    {
+      "time": 1765359039.4340365,
+      "market": "sim-43",
+      "outcome": "NO",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-43",
+        "outcome": "NO",
+        "amount": 5,
+        "profit": -5
+      }
+    },
+    {
+      "time": 1765359039.4770718,
+      "market": "sim-44",
+      "outcome": "NO",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-44",
+        "outcome": "NO",
+        "amount": 5,
+        "profit": 3.1305510275353883
+      }
+    },
+    {
+      "time": 1765359039.568108,
+      "market": "sim-45",
+      "outcome": "YES",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-45",
+        "outcome": "YES",
+        "amount": 5,
+        "profit": 3.3347241268397716
+      }
+    },
+    {
+      "time": 1765359044.6019313,
+      "market": "sim-46",
+      "outcome": "NO",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-46",
+        "outcome": "NO",
+        "amount": 5,
+        "profit": 5.067693243335719
+      }
+    },
+    {
+      "time": 1765359044.6712391,
+      "market": "sim-47",
+      "outcome": "YES",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-47",
+        "outcome": "YES",
+        "amount": 5,
+        "profit": -5
+      }
+    },
+    {
+      "time": 1765359044.7746804,
+      "market": "sim-48",
+      "outcome": "YES",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-48",
+        "outcome": "YES",
+        "amount": 5,
+        "profit": 6.626042368603492
+      }
+    },
+    {
+      "time": 1765359049.8071024,
+      "market": "sim-49",
+      "outcome": "YES",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-49",
+        "outcome": "YES",
+        "amount": 5,
+        "profit": -5
+      }
+    },
+    {
+      "time": 1765359049.8724105,
+      "market": "sim-50",
+      "outcome": "YES",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-50",
+        "outcome": "YES",
+        "amount": 5,
+        "profit": 3.468286285858482
+      }
+    },
+    {
+      "time": 1765359054.888436,
+      "market": "sim-52",
+      "outcome": "NO",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-52",
+        "outcome": "NO",
+        "amount": 5,
+        "profit": -5
+      }
+    },
+    {
+      "time": 1765359054.9480371,
+      "market": "sim-53",
+      "outcome": "YES",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-53",
+        "outcome": "YES",
+        "amount": 5,
+        "profit": -5
+      }
+    },
+    {
+      "time": 1765359055.0128663,
+      "market": "sim-54",
+      "outcome": "YES",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-54",
+        "outcome": "YES",
+        "amount": 5,
+        "profit": -5
+      }
+    },
+    {
+      "time": 1765359060.0661645,
+      "market": "sim-55",
+      "outcome": "NO",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-55",
+        "outcome": "NO",
+        "amount": 5,
+        "profit": 6.191272734189164
+      }
+    },
+    {
+      "time": 1765359060.112562,
+      "market": "sim-57",
+      "outcome": "NO",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-57",
+        "outcome": "NO",
+        "amount": 5,
+        "profit": -5
+      }
+    },
+    {
+      "time": 1765359065.1496468,
+      "market": "sim-58",
+      "outcome": "YES",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-58",
+        "outcome": "YES",
+        "amount": 5,
+        "profit": -5
+      }
+    },
+    {
+      "time": 1765359065.1873202,
+      "market": "sim-59",
+      "outcome": "YES",
+      "amount": 5,
+      "result": {
+        "status": "ok",
+        "simulated": true,
+        "market": "sim-59",
+        "outcome": "YES",
+        "amount": 5,
+        "profit": 7.388711267365418
+      }
+    }
+  ],
+  "pnl": 68.64212381093914
+}

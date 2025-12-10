@@ -1,5 +1,7 @@
 # PPbotAI — Manifold Prediction Market Trading Bot
-Contest Submission for Manifold Featured Challenge
+***Contest Submission for Manifold Featured Challenge***
+
+**Bot Username:** PPbotAI
 
 PPbotAI is an automated trading bot designed specifically for the Manifold Markets Featured Contest.  
 It trades only in markets created by the user "MikhailTal" as required by contest rules.  
@@ -77,21 +79,26 @@ Leave empty to run in simulation mode.
 ## Usage
 ------------------------------------------------------------
 
-Run in simulation mode:
+**Run in simulation mode:**
 
+```bash
 python run.py --dry
-
-Run in real mode:
-
+```
+**Run in real mode:**
+```bash
 python run.py
+```
 
-Limit loops for testing:
-
+***Limit loops for testing:***
+```bash
 python run.py --dry --loops 20
+```
 
-Generate PnL graph:
+***Generate PnL graph:***
 
+```bash
 python plot_pnl.py
+```
 
 ------------------------------------------------------------
 ## Strategy Summary
@@ -137,7 +144,7 @@ run.py
 ## Bot Identity
 ------------------------------------------------------------
 
-Bot Username: PPbotAI
+***Bot Username: PPbotAI***
 
 ------------------------------------------------------------
 ## License

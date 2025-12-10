@@ -4,6 +4,8 @@ import sys
 import argparse
 from ppbot.bot import PPBot
 from dotenv import load_dotenv
+# Correct import path for PnLTracker, assuming pnl.py is now inside ppbot/
+from ppbot.pnl import PnLTracker 
 
 load_dotenv()
 
@@ -23,7 +25,12 @@ def main():
         mode = "real" if api_key else "simulation"
 
     print(f"Selected mode: {mode}")
-    bot = PPBot(mode=mode, api_key=api_key, dry=args.dry)
+    
+    # 1. Instantiate the PnLTracker here
+    pnl_tracker = PnLTracker() 
+    
+    # 2. Pass the PnLTracker instance to the PPBot constructor
+    bot = PPBot(mode=mode, api_key=api_key, dry=args.dry, pnl_tracker=pnl_tracker)
     bot.run()
 
 if __name__ == '__main__':
