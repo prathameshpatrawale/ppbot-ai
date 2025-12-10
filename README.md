@@ -7,7 +7,7 @@ PPbotAI is an automated trading bot designed specifically for the Manifold Marke
 It trades only in markets created by the user "MikhailTal" as required by contest rules.  
 The bot supports real API trading, simulation mode, a custom hybrid strategy, and PnL logging.
 
-![Uploading stylish_pnl_plot.png…]()
+<img width="3564" height="1768" alt="stylish_pnl_plot" src="https://github.com/user-attachments/assets/8fd31c12-a7ad-4a8d-8506-d6d5d652660a" />
 
 ------------------------------------------------------------
 ## Project Features
