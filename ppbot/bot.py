@@ -4,9 +4,7 @@ import logging
 
 from .client import ManifoldClient
 from .simulation import SimulationClient
-# from .strategy import SimpleStrategy
 from .strategy import HybridStrategy
-
 
 
 log = logging.getLogger("ppbot.bot")
@@ -24,31 +22,32 @@ class PPBot:
     - Placing trades (dry / real)
     """
 
-    def __init__(self, mode="simulation", api_key=None, dry=False, sleep=5):
+    # FIX 1: Add pnl_tracker to the constructor signature to resolve TypeError
+    def __init__(self, mode="simulation", api_key=None, dry=False, sleep=5, pnl_tracker=None):
         self.mode = mode
         self.api_key = api_key
         self.dry = dry
         self.sleep = sleep
-        from .pnl import PnLTracker
-        self.pnl = PnLTracker()
-
+        
+        # FIX 2: Store the pnl_tracker instance passed from run.py
+        self.pnl = pnl_tracker 
 
         # ---- Select client ----
         if self.mode == "real":
             log.info("Initializing REAL mode client")
+            # ManifoldClient can be updated to accept the tracker later if needed
             self.client = ManifoldClient(api_key=api_key, dry=dry)
         else:
             log.info("Initializing SIMULATION mode client")
-            self.client = SimulationClient()
+            # FIX 3: Pass the tracker instance to the SimulationClient
+            self.client = SimulationClient(pnl_tracker=self.pnl)
 
         # ---- Strategy ----
-        # self.strategy = SimpleStrategy()
         self.strategy = HybridStrategy()
 
     # Main loop
     def run(self):
         log.info("Starting PPBot — Mode: %s | Dry: %s", self.mode, self.dry)
-        # self.pnl.log_trade(market_id, outcome, amount, result)
 
         max_loops = 20  # run only 20 cycles
 
@@ -87,7 +86,8 @@ class PPBot:
                         )
                         log.info("Bet result: %s", result)
 
-                        # Log PnL trade (correct placement)
+                        # Log PnL trade (This is the central call, using the 'profit' 
+                        # key returned by the SimulationClient)
                         self.pnl.log_trade(market_id, outcome, amount, result)
 
                     else:
@@ -106,4 +106,3 @@ class PPBot:
                 time.sleep(3)
 
         log.info("Finished %d loops. Exiting bot.", max_loops)
-

@@ -1,3 +1,4 @@
+# pnl.py (Your original file)
 import json
 import os
 import time
@@ -23,7 +24,7 @@ class PnLTracker:
 
         data["trades"].append(trade)
 
-        # Update P&L if API returns profit field
+        # Update P&L if API returns profit field (This is where the fix in simulationclient works)
         profit = result.get("profit", 0)
         data["pnl"] += profit
 
